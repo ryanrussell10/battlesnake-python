@@ -4,19 +4,6 @@ import random
 import math
 
 
-# NOTES TO SAM:
-# To run Game locally:
-#
-# sudo start_server.sh
-# python app/main.py
-# 
-# Go to http://localhost:3000
-#
-# use local http://{local IP}:8080
-# 
-# Find local IP with "hostname -I"
-
-
 DIRECTIONS = {'right': [1,0], 'left':[-1,0], 'up':[0,-1], 'down':[0,1]}
 
 TAUNTS = ['UVIC Satellite Design Team is #1', 'ESKETTIT']
